@@ -6,5 +6,6 @@ Pascal
 Objective C  
 D  
 Zig  
+Lua  
   
 Makefile  
