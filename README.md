@@ -9,3 +9,4 @@ Zig
 Lua  
   
 Makefile  
+Bash zum ausführen  
