@@ -1,6 +1,6 @@
 all:
-	cc -S one.c
-	c++ -S two.cpp
+	cc -S c.c
+	c++ -S main.cpp
 	cc -c *.s
 	c++ *.o -o mix
 
