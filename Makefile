@@ -4,7 +4,9 @@ all:
 	cc -c *.s
 	c++ *.o -o mix
 
-fclean:
+clean:
 	rm -f *.o
 	rm -f *.s
+
+fclean: clean
 	rm -f mix
