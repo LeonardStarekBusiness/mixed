@@ -1,8 +1,12 @@
 #include "head.h"
-#include <stdio.h>
 
-int main(void)
+char *doThing(void)
 {
-    printf("Hello from c!\n");
-    greet_cpp();
+    char *str = strdup("Hello Wöarld");
+    return (str);
+}
+
+void undoThing(void *ptr)
+{
+    free(ptr);
 }

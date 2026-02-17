@@ -3,5 +3,8 @@
 
 int main(void)
 {
-    doThing();
+    char *text = doThing();
+    std::cout << text << std::endl;
+    undoThing(text);
+    return (0);
 }
